@@ -24,6 +24,8 @@ import androidx.hilt.navigation.compose.hiltViewModel
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import com.plcoding.translator_kmm.android.core.theme.darkColors
+import com.plcoding.translator_kmm.android.core.theme.lightColors
 import com.plcoding.translator_kmm.android.core.ui.Routes
 import com.plcoding.translator_kmm.android.translate.ui.AndroidTranslateViewModel
 import com.plcoding.translator_kmm.android.translate.ui.components.TranslateScreen
@@ -35,9 +37,9 @@ fun TranslatorTheme(
     content: @Composable () -> Unit
 ) {
     val colors = if (darkTheme) {
-        com.plcoding.translator_kmm.android.core.theme.darkColors
+        darkColors
     } else {
-        com.plcoding.translator_kmm.android.core.theme.lightColors
+        lightColors
     }
     val SfProText = FontFamily(
         Font(
