@@ -8,6 +8,11 @@ import io.ktor.serialization.kotlinx.json.json
 actual class HttpClientFactory {
     actual fun create(): HttpClient =
         HttpClient(Darwin){
+            engine {
+                configureRequest {
+                    setTimeoutInterval(100000.0)
+                }
+            }
             install(ContentNegotiation){
                 json()
             }

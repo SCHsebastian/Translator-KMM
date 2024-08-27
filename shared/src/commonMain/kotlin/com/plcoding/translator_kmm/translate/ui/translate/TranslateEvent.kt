@@ -19,5 +19,5 @@ sealed class TranslateEvent {
     data class SubmitVoiceResult(val result: String?): TranslateEvent()
     object StopRecording: TranslateEvent()
     data class DeleteHistoryItem(val item: HistoryItemDecorator): TranslateEvent()
-    data class OnError(val error: String): TranslateEvent()
+    object OnErrorSeen: TranslateEvent()
 }

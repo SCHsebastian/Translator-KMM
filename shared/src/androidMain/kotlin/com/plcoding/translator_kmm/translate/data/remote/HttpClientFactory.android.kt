@@ -8,6 +8,10 @@ import io.ktor.serialization.kotlinx.json.json
 actual class HttpClientFactory {
     actual fun create(): HttpClient =
         HttpClient(Android){
+            engine {
+                connectTimeout = 100_000
+                socketTimeout = 100_000
+            }
             install(ContentNegotiation){
                 json()
             }
