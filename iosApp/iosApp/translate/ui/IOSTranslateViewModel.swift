@@ -33,7 +33,11 @@ extension TranslateScreen {
         init(historyRepository: HistoryRepository, translateUseCase: Translate) {
             self.historyRepository = historyRepository
             self.translateUseCase = translateUseCase
-            self.viewModel = TranslateViewModel(translate: translateUseCase, historyRepository: historyRepository, coroutineScope: nil)
+            self.viewModel = TranslateViewModel(
+                translate: translateUseCase,
+                historyRepository: historyRepository,
+                coroutineScope: nil
+            )
         }
         
         

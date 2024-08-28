@@ -10,6 +10,12 @@
 		058557BB273AAA24004C7B11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557BA273AAA24004C7B11 /* Assets.xcassets */; };
 		058557D9273AAEEB004C7B11 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */; };
 		2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2152FB032600AC8F00CF470E /* iOSApp.swift */; };
+		3916FF922C7F9FC100E27054 /* TextToSpeech.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3916FF912C7F9FC100E27054 /* TextToSpeech.swift */; };
+		3916FF942C7FA19700E27054 /* TranslateHistoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3916FF932C7FA19700E27054 /* TranslateHistoryItem.swift */; };
+		394BC87D2C7E46BD0033295C /* SurfaceGradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BC87C2C7E46BD0033295C /* SurfaceGradient.swift */; };
+		394BC87F2C7E4A380033295C /* LanguageDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BC87E2C7E4A380033295C /* LanguageDisplay.swift */; };
+		394BC8812C7E4B490033295C /* ProgressButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BC8802C7E4B490033295C /* ProgressButton.swift */; };
+		394BC8832C7E4D900033295C /* TranslateTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394BC8822C7E4D900033295C /* TranslateTextField.swift */; };
 		397511DD2C78D7BD004CFB19 /* IOSColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397511DC2C78D7BD004CFB19 /* IOSColors.swift */; };
 		397511E22C78DBEA004CFB19 /* LanguageDropDownItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397511E12C78DBEA004CFB19 /* LanguageDropDownItem.swift */; };
 		397511E42C78E25D004CFB19 /* LanguageDropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 397511E32C78E25D004CFB19 /* LanguageDropDown.swift */; };
@@ -25,6 +31,12 @@
 		058557BA273AAA24004C7B11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		058557D8273AAEEB004C7B11 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2152FB032600AC8F00CF470E /* iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSApp.swift; sourceTree = "<group>"; };
+		3916FF912C7F9FC100E27054 /* TextToSpeech.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextToSpeech.swift; sourceTree = "<group>"; };
+		3916FF932C7FA19700E27054 /* TranslateHistoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateHistoryItem.swift; sourceTree = "<group>"; };
+		394BC87C2C7E46BD0033295C /* SurfaceGradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurfaceGradient.swift; sourceTree = "<group>"; };
+		394BC87E2C7E4A380033295C /* LanguageDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDisplay.swift; sourceTree = "<group>"; };
+		394BC8802C7E4B490033295C /* ProgressButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressButton.swift; sourceTree = "<group>"; };
+		394BC8822C7E4D900033295C /* TranslateTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslateTextField.swift; sourceTree = "<group>"; };
 		397511DC2C78D7BD004CFB19 /* IOSColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOSColors.swift; sourceTree = "<group>"; };
 		397511E12C78DBEA004CFB19 /* LanguageDropDownItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDropDownItem.swift; sourceTree = "<group>"; };
 		397511E32C78E25D004CFB19 /* LanguageDropDown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageDropDown.swift; sourceTree = "<group>"; };
@@ -81,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				397511DC2C78D7BD004CFB19 /* IOSColors.swift */,
+				394BC87C2C7E46BD0033295C /* SurfaceGradient.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -99,6 +112,7 @@
 				397511E92C78E6DF004CFB19 /* IOSTranslateViewModel.swift */,
 				397511E02C78DBCF004CFB19 /* components */,
 				397511ED2C78E7A8004CFB19 /* TranslateScreen.swift */,
+				3916FF912C7F9FC100E27054 /* TextToSpeech.swift */,
 			);
 			path = ui;
 			sourceTree = "<group>";
@@ -110,6 +124,10 @@
 				397511E32C78E25D004CFB19 /* LanguageDropDown.swift */,
 				397511E52C78E3B3004CFB19 /* SmallLanguageIcon.swift */,
 				397511E72C78E50B004CFB19 /* SwapLanguageButton.swift */,
+				394BC87E2C7E4A380033295C /* LanguageDisplay.swift */,
+				394BC8802C7E4B490033295C /* ProgressButton.swift */,
+				394BC8822C7E4D900033295C /* TranslateTextField.swift */,
+				3916FF932C7FA19700E27054 /* TranslateHistoryItem.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -286,15 +304,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				394BC8812C7E4B490033295C /* ProgressButton.swift in Sources */,
 				397511DD2C78D7BD004CFB19 /* IOSColors.swift in Sources */,
+				394BC87D2C7E46BD0033295C /* SurfaceGradient.swift in Sources */,
 				397511E22C78DBEA004CFB19 /* LanguageDropDownItem.swift in Sources */,
+				394BC87F2C7E4A380033295C /* LanguageDisplay.swift in Sources */,
 				397511E62C78E3B3004CFB19 /* SmallLanguageIcon.swift in Sources */,
 				397511EA2C78E6DF004CFB19 /* IOSTranslateViewModel.swift in Sources */,
 				397511E42C78E25D004CFB19 /* LanguageDropDown.swift in Sources */,
 				397511E82C78E50B004CFB19 /* SwapLanguageButton.swift in Sources */,
 				2152FB042600AC8F00CF470E /* iOSApp.swift in Sources */,
 				397511EE2C78E7A8004CFB19 /* TranslateScreen.swift in Sources */,
+				3916FF922C7F9FC100E27054 /* TextToSpeech.swift in Sources */,
 				7555FF83242A565900829871 /* ContentView.swift in Sources */,
+				3916FF942C7FA19700E27054 /* TranslateHistoryItem.swift in Sources */,
+				394BC8832C7E4D900033295C /* TranslateTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
